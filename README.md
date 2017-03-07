@@ -1,1 +1,1 @@
-# LFTool
+# LFTool - Tools for Life
