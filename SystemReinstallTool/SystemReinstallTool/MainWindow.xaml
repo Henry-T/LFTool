@@ -11,6 +11,7 @@
         <Button x:Name="btnStartRestore" Content="开始恢复" HorizontalAlignment="Left" Margin="432,289,0,0" VerticalAlignment="Top" Width="75" Click="btnStartRestore_Click"/>
         <TextBox x:Name="tbBackupPath" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="417" TextChanged="tbBackupPath_TextChanged"/>
         <Button x:Name="btnChooseBackupPath" Content="选择" HorizontalAlignment="Left" Margin="432,9,0,0" VerticalAlignment="Top" Width="75" Click="btnChooseBackupPath_Click"/>
+        <TextBlock x:Name="tbConsole" HorizontalAlignment="Left" Margin="10,38,0,0" TextWrapping="Wrap" Text="123123123123" VerticalAlignment="Top" Height="246" Width="497" Background="#FFEDFFFD"/>
 
     </Grid>
 </Window>

@@ -31,12 +31,12 @@ namespace SystemReinstallTool
 
         private void btnStartBackup_Click(object sender, RoutedEventArgs e)
         {
-
+            SystemReinstaller.ProcessAll(backupPath, true);
         }
 
         private void btnStartRestore_Click(object sender, RoutedEventArgs e)
         {
-
+            SystemReinstaller.ProcessAll(backupPath, false);
         }
 
         private void btnChooseBackupPath_Click(object sender, RoutedEventArgs e)

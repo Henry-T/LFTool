@@ -11,8 +11,11 @@ namespace SystemReinstallTool
 {
     class SystemReinstaller
     {
-        private static void foo(string backupPath)
+        private static void processChecking(string backupPath, bool isBackup)
         {
+            if (!isBackup)
+                return;
+
             string userProfileDirPath = Environment.ExpandEnvironmentVariables("%USERPROFILE%");
             DirectoryInfo userProfileDirInfo = new DirectoryInfo(userProfileDirPath);
 
@@ -40,8 +43,6 @@ namespace SystemReinstallTool
             {
                 Console.WriteLine("please move {0} to {1}. Then set Tools > Options > Environment > Import and Export Settings > Automatically save my settings to this file: of Visual Studio", vssettingsFileInfo.FullName, @"D:\Sync\Sync\ProgramConfig\Visual Studio <version>\Settings\CurrentSettings.vssettings");
             }
-
-            // =======================================
             
         }
 
@@ -91,12 +92,41 @@ namespace SystemReinstallTool
             }
         }
 
-        public static void AssertDirectoryNotExist(string path)
+        private static void processTaskScheduler(string backupDirPath, bool isBackup)
         {
-            if (Directory.Exists(path))
+            string myTasksPath = "C:/Windows/System32/Tasks/MyTask";
+            string myTasksBackupPath = Path.Combine(backupDirPath, "MyTask");
+            if (isBackup)
             {
-
+                Util.RoboCopy(myTasksPath, myTasksBackupPath);
             }
+            else
+            {
+                Util.RoboCopy(myTasksBackupPath, myTasksPath);
+            }
+        }
+
+        private static void processFilezilla(string backupDirPath, bool isBackup)
+        {
+            string filezillaSettingsPath = Path.Combine(backupDirPath, "filezilla.xml");
+            if (isBackup)
+            {
+                Util.StartProcessToEnd("filezilla.exe", "--export " + filezillaSettingsPath);
+            }
+            else
+            {
+                Util.StartProcessToEnd("filezilla.exe", "--import " + filezillaSettingsPath);
+            }
+        }
+
+        public static void ProcessAll(string backupDirPath, bool isBackup)
+        {
+            processChecking(backupDirPath, isBackup);
+            processPowerShellProfile(backupDirPath, isBackup);
+            processHosts(backupDirPath, isBackup);
+            processEnvironmentVariables(backupDirPath, isBackup);
+            processTaskScheduler(backupDirPath, isBackup);
+            processFilezilla(backupDirPath, isBackup);
         }
     }
 }
