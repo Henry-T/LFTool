@@ -18,6 +18,8 @@ namespace SystemReinstallTool
 
             string userProfileDirPath = Environment.ExpandEnvironmentVariables("%USERPROFILE%");
             DirectoryInfo userProfileDirInfo = new DirectoryInfo(userProfileDirPath);
+            string userDocumentDirPath = Path.Combine(userProfileDirInfo.FullName, "Documents");
+            DirectoryInfo userDocumentDirInfo = new DirectoryInfo(userDocumentDirPath);
 
             string defaultVBoxUserHomeDir = Environment.ExpandEnvironmentVariables("%USERPROFILE%\\.VirtualBox");
             if (Directory.Exists(defaultVBoxUserHomeDir))
@@ -28,7 +30,7 @@ namespace SystemReinstallTool
             var androidStudioDirs = userProfileDirInfo.EnumerateDirectories(".AndroidStudio*", SearchOption.TopDirectoryOnly);
             foreach(var androidStudioDir in androidStudioDirs)
             {
-                Console.WriteLine("please move {0} to {1}, and config 'idea.config.path' in <android_studio_dir>/bin/idea.properties");
+                Console.WriteLine("please move {0} to {1}, and config 'idea.config.path' in <android_studio_dir>/bin/idea.properties", androidStudioDir, "D:\\Development");
             }
 
             string gradleDir = Path.Combine(userProfileDirInfo.FullName, ".gradle");
@@ -37,13 +39,14 @@ namespace SystemReinstallTool
                 Console.WriteLine("please move {0} to {1} with envrionment variable name: GRADLE_USER_HOME", gradleDir, @"D:\Development\GradleUserHome");
             }
 
-            Regex reg = new Regex(@"Visual Studio[\d ]+\Settings\CurrentSettings.vssettings");
-            var vssettingsFileInfos = userProfileDirInfo.GetFiles("*", SearchOption.AllDirectories).Where(path => reg.IsMatch(path.FullName));
-            foreach(var vssettingsFileInfo in vssettingsFileInfos)
+            foreach(var vsDirInfo in userDocumentDirInfo.GetDirectories("Visual Studio *"))
             {
-                Console.WriteLine("please move {0} to {1}. Then set Tools > Options > Environment > Import and Export Settings > Automatically save my settings to this file: of Visual Studio", vssettingsFileInfo.FullName, @"D:\Sync\Sync\ProgramConfig\Visual Studio <version>\Settings\CurrentSettings.vssettings");
-            }
-            
+                string vsSettingFilePath = Path.Combine(vsDirInfo.FullName, "Settings\\CurrentSettings.vssettings");
+                if (File.Exists(vsSettingFilePath))
+                {
+                    Console.WriteLine("please move {0} to {1}. Then set Tools > Options > Environment > Import and Export Settings > Automatically save my settings to this file: of Visual Studio", vsSettingFilePath, @"D:\Sync\Sync\ProgramConfig\Visual Studio <version>\Settings\CurrentSettings.vssettings");
+                }
+            }   
         }
 
         private static void processPowerShellProfile(string backupDirPath, bool isBackup)
@@ -52,11 +55,11 @@ namespace SystemReinstallTool
             string backupFilePath = Path.Combine(backupDirPath, "Microsoft.PowerShell_profile.ps1");
             if (isBackup && File.Exists(powerShellProfilePath))
             {
-                File.Copy(powerShellProfilePath, backupFilePath);
+                File.Copy(powerShellProfilePath, backupFilePath, true);
             }
             else if (!isBackup && File.Exists(backupFilePath))
             {
-                File.Copy(backupFilePath, powerShellProfilePath);
+                File.Copy(backupFilePath, powerShellProfilePath, true);
             }
         }
 
@@ -65,12 +68,13 @@ namespace SystemReinstallTool
             string hostsPath = Environment.ExpandEnvironmentVariables(@"C:\Windows\System32\drivers\etc\hosts");
             string backupFilePath = Path.Combine(backupDirPath, "hosts");
             if (isBackup && File.Exists(hostsPath))
-            {
-                File.Copy(hostsPath, backupFilePath);
+            { 
+                File.Copy(hostsPath, backupFilePath, true);
+                FileUtil.RemoveReadOnlyOfFile(backupFilePath);
             }
             else if (!isBackup && File.Exists(backupFilePath))
             {
-                File.Copy(backupFilePath, hostsPath);
+                File.Copy(backupFilePath, hostsPath, true);
             }
         }
 
@@ -98,6 +102,9 @@ namespace SystemReinstallTool
             string myTasksBackupPath = Path.Combine(backupDirPath, "MyTask");
             if (isBackup)
             {
+                if (!Directory.Exists(myTasksBackupPath))
+                    Directory.CreateDirectory(myTasksBackupPath);
+
                 Util.RoboCopy(myTasksPath, myTasksBackupPath);
             }
             else
@@ -105,20 +112,7 @@ namespace SystemReinstallTool
                 Util.RoboCopy(myTasksBackupPath, myTasksPath);
             }
         }
-
-        private static void processFilezilla(string backupDirPath, bool isBackup)
-        {
-            string filezillaSettingsPath = Path.Combine(backupDirPath, "filezilla.xml");
-            if (isBackup)
-            {
-                Util.StartProcessToEnd("filezilla.exe", "--export " + filezillaSettingsPath);
-            }
-            else
-            {
-                Util.StartProcessToEnd("filezilla.exe", "--import " + filezillaSettingsPath);
-            }
-        }
-
+        
         public static void ProcessAll(string backupDirPath, bool isBackup)
         {
             processChecking(backupDirPath, isBackup);
@@ -126,7 +120,6 @@ namespace SystemReinstallTool
             processHosts(backupDirPath, isBackup);
             processEnvironmentVariables(backupDirPath, isBackup);
             processTaskScheduler(backupDirPath, isBackup);
-            processFilezilla(backupDirPath, isBackup);
         }
     }
 }

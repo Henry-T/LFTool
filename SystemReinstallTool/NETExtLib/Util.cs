@@ -206,6 +206,7 @@ namespace NETExtLib
             processStartInfo.RedirectStandardOutput = true;
             processStartInfo.RedirectStandardError = true;
             processStartInfo.CreateNoWindow = true;
+            processStartInfo.Verb = "runas";
             try
             {
                 Process process = Process.Start(processStartInfo);
