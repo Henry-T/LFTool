@@ -1,0 +1,272 @@
+digraph  dependencies {layout="fdp"; splines="ortho"; size="30,30"; bgcolor="#111519"; 
+"sanguo svn自动merge工具
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"sanguo svn自动merge工具
+"[id="activate('task', 'sanguo svn自动merge工具
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"筛选SDK开发简历
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"筛选SDK开发简历
+"[id="activate('task', '筛选SDK开发简历
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"试搭建公司文档共享 MkDoc
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"试搭建公司文档共享 MkDoc
+"[id="activate('task', '试搭建公司文档共享 MkDoc
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"google play 接入测试
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"google play 接入测试
+"[id="activate('task', 'google play 接入测试
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"android java to smali\nsnippet convertor
+" -> "i"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"android java to smali\nsnippet convertor
+"[id="activate('task', 'android java to smali\nsnippet convertor
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"i"[id="activate('tags', 'i')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"整理并消化目前为止准备的面试题库
+" -> "u"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"整理并消化目前为止准备的面试题库
+"[id="activate('task', '整理并消化目前为止准备的面试题库
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"u"[id="activate('tags', 'u')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"PicaWorld 脚本层加密 Level3
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"PicaWorld 脚本层加密 Level3
+"[id="activate('task', 'PicaWorld 脚本层加密 Level3
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"GameBuilder\n支持生成带角标的图标
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"GameBuilder\n支持生成带角标的图标
+"[id="activate('task', 'GameBuilder\n支持生成带角标的图标
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"GSDK.iOS 文档编写 QuickX\n接入
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"GSDK.iOS 文档编写 QuickX\n接入
+"[id="activate('task', 'GSDK.iOS 文档编写 QuickX\n接入
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"PicaWorld 脚本层加密 Level3
+" -> "u"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"PicaWorld 脚本层加密 Level3
+"[id="activate('task', 'PicaWorld 脚本层加密 Level3
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"u"[id="activate('tags', 'u')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"jenkins split 下载失败优化
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"jenkins split 下载失败优化
+"[id="activate('task', 'jenkins split 下载失败优化
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"了解ELF格式 初级
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"了解ELF格式 初级
+"[id="activate('task', '了解ELF格式 初级
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"ApowoSDK自动化回归
+" -> "i"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"ApowoSDK自动化回归
+"[id="activate('task', 'ApowoSDK自动化回归
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"i"[id="activate('tags', 'i')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"了解ruby rake fastlane
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"了解ruby rake fastlane
+"[id="activate('task', '了解ruby rake fastlane
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"GSDK.uc 升级到v6.1
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"GSDK.uc 升级到v6.1
+"[id="activate('task', 'GSDK.uc 升级到v6.1
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"了解如何在unity3d中加入SDK窗口
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"了解如何在unity3d中加入SDK窗口
+"[id="activate('task', '了解如何在unity3d中加入SDK窗口
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"重构 gameClientBuilder\n仅在数据层次上明确归属
+" -> "i"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"重构 gameClientBuilder\n仅在数据层次上明确归属
+"[id="activate('task', '重构 gameClientBuilder\n仅在数据层次上明确归属
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"i"[id="activate('tags', 'i')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"CatHouse 应用宝 4399\n官网包支持
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"CatHouse 应用宝 4399\n官网包支持
+"[id="activate('task', 'CatHouse 应用宝 4399\n官网包支持
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"GameBuilder.ftp构建伴生目录
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"GameBuilder.ftp构建伴生目录
+"[id="activate('task', 'GameBuilder.ftp构建伴生目录
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"了解facebook ad tracking
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"了解facebook ad tracking
+"[id="activate('task', '了解facebook ad tracking
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"ApowoSDK通过jenkins构建对外�\n��本
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"ApowoSDK通过jenkins构建对外�\n��本
+"[id="activate('task', 'ApowoSDK通过jenkins构建对外�\n��本
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"尝试用graphviz展现并跟踪技术�\n�构状态
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"尝试用graphviz展现并跟踪技术�\n�构状态
+"[id="activate('task', '尝试用graphviz展现并跟踪技术�\n�构状态
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"ApowoSDK自动化回归
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"ApowoSDK自动化回归
+"[id="activate('task', 'ApowoSDK自动化回归
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"( ( == 146 ) ) SDK开发面试
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"( ( == 146 ) ) SDK开发面试
+"[id="activate('task', '( ( == 146 ) ) SDK开发面试
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"重构 gameClientBuilder\n仅在数据层次上明确归属
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"重构 gameClientBuilder\n仅在数据层次上明确归属
+"[id="activate('task', '重构 gameClientBuilder\n仅在数据层次上明确归属
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"ApowoSDK\n为release工具相关脚本添加开关
+" -> "i"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"ApowoSDK\n为release工具相关脚本添加开关
+"[id="activate('task', 'ApowoSDK\n为release工具相关脚本添加开关
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"i"[id="activate('tags', 'i')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"入门Python
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"入门Python
+"[id="activate('task', '入门Python
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"GSDK\n生成SDKComp时自动滤除libs\narm64 - v8a
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"GSDK\n生成SDKComp时自动滤除libs\narm64 - v8a
+"[id="activate('task', 'GSDK\n生成SDKComp时自动滤除libs\narm64 - v8a
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"整理并消化目前为止准备的面试题库
+" -> "l"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"整理并消化目前为止准备的面试题库
+"[id="activate('task', '整理并消化目前为止准备的面试题库
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"l"[id="activate('tags', 'l')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"PicaWorld Win32\nLevel1加密测试
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"PicaWorld Win32\nLevel1加密测试
+"[id="activate('task', 'PicaWorld Win32\nLevel1加密测试
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"android java to smali\nsnippet convertor
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"android java to smali\nsnippet convertor
+"[id="activate('task', 'android java to smali\nsnippet convertor
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"sanguo FixLebian\nLauncher重构
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"sanguo FixLebian\nLauncher重构
+"[id="activate('task', 'sanguo FixLebian\nLauncher重构
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"SecureUnity3D\n编写配置工具使其成为通用加密工具
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"SecureUnity3D\n编写配置工具使其成为通用加密工具
+"[id="activate('task', 'SecureUnity3D\n编写配置工具使其成为通用加密工具
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"sanguo 项目例会讨论等
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"sanguo 项目例会讨论等
+"[id="activate('task', 'sanguo 项目例会讨论等
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"iOS获取运行log
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"iOS获取运行log
+"[id="activate('task', 'iOS获取运行log
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"ApowoSDK\n为release工具相关脚本添加开关
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"ApowoSDK\n为release工具相关脚本添加开关
+"[id="activate('task', 'ApowoSDK\n为release工具相关脚本添加开关
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"skynet入门
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"skynet入门
+"[id="activate('task', 'skynet入门
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"sanguo Android图标更换为\n紫色蔡文姬 公平
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"sanguo Android图标更换为\n紫色蔡文姬 公平
+"[id="activate('task', 'sanguo Android图标更换为\n紫色蔡文姬 公平
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"GameBuilder.iOS\nfastlane应减少一轮编译
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"GameBuilder.iOS\nfastlane应减少一轮编译
+"[id="activate('task', 'GameBuilder.iOS\nfastlane应减少一轮编译
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"整理并消化目前为止准备的面试题库
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"整理并消化目前为止准备的面试题库
+"[id="activate('task', '整理并消化目前为止准备的面试题库
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"AutoSplitPack支持翻页\n恢复UnitTest
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"AutoSplitPack支持翻页\n恢复UnitTest
+"[id="activate('task', 'AutoSplitPack支持翻页\n恢复UnitTest
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"大致浏览一下书 Hacking - the\nArt of Exploitation
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"大致浏览一下书 Hacking - the\nArt of Exploitation
+"[id="activate('task', '大致浏览一下书 Hacking - the\nArt of Exploitation
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"PicaWorld 生成并上传资源目录
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"PicaWorld 生成并上传资源目录
+"[id="activate('task', 'PicaWorld 生成并上传资源目录
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"PicaWorld OSx 配置
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"PicaWorld OSx 配置
+"[id="activate('task', 'PicaWorld OSx 配置
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+"GameBuilder rework3
+" -> "com"[color="white"][style="dotted"][penwidth="5pt"][arrowsize="0.1"]
+"GameBuilder rework3
+"[id="activate('task', 'GameBuilder rework3
+')"][shape="box"][color="white"][fontcolor="white"][style="rounded,filled"][fillcolor="#222299"][fontsize="16"]
+"com"[id="activate('tags', 'com')"][shape="egg"][fillcolor="#000000"][penwidth="2pt"][style="filled"][fontcolor="white"][color="white"]
+}
