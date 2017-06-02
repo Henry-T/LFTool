@@ -143,7 +143,7 @@ namespace NETExtLib
         public static int RoboCopy(String srcDirPath, String dstDirPath, string wildcards=null, bool ignoreEmptyDir=false)
         {
             string file = "robocopy";
-            if (wildcards==null) wildcards="*.*";
+            if (wildcards==null) wildcards="";
             string args = srcDirPath+" "+dstDirPath+ " "+wildcards+" " + (ignoreEmptyDir?" /S ":" /E ") + " /NFL /NDL /NJH /NJS";
             int exitCode = Util.StartProcessToEnd(file, args, Util.WriteProcessDataToStdout, Util.WriteProcessDataToError);
             if (exitCode>4)

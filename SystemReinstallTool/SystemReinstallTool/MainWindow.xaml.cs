@@ -14,6 +14,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Win32;
 using System.Windows.Forms;
+using NETExtLib;
+
 
 namespace SystemReinstallTool
 {
@@ -25,6 +27,7 @@ namespace SystemReinstallTool
         public MainWindow()
         {
             InitializeComponent();
+            Log.SetLevel(ELogLevel.Verbose);
         }
 
         private string backupPath;

@@ -27,12 +27,15 @@ namespace SystemReinstallTool
                 Console.WriteLine("please move {0} to {1} with envrionment variable name: VBOX_USER_HOME", defaultVBoxUserHomeDir, @"D:\Sync\Sync\ProgramConfig\VBOX_USER_HOME");
             }
 
-            var androidStudioDirs = userProfileDirInfo.EnumerateDirectories(".AndroidStudio*", SearchOption.TopDirectoryOnly);
-            foreach(var androidStudioDir in androidStudioDirs)
+            foreach(var androidStudioDirInfo in userDocumentDirInfo.GetDirectories(".AndroidStudio*"))
             {
-                Console.WriteLine("please move {0} to {1}, and config 'idea.config.path' in <android_studio_dir>/bin/idea.properties", androidStudioDir, "D:\\Development");
+                string androidStudioConfigDirPath = Path.Combine(androidStudioDirInfo.FullName, "config");
+                if (Directory.Exists(androidStudioConfigDirPath))
+                {
+                    Console.WriteLine("please move {0} to {1}, and config 'idea.config.path' in <android_studio_dir>/bin/idea.properties", androidStudioConfigDirPath, "D:\\Development");
+                }
             }
-
+            
             string gradleDir = Path.Combine(userProfileDirInfo.FullName, ".gradle");
             if (Directory.Exists(gradleDir))
             {
@@ -104,7 +107,6 @@ namespace SystemReinstallTool
             {
                 if (!Directory.Exists(myTasksBackupPath))
                     Directory.CreateDirectory(myTasksBackupPath);
-
                 Util.RoboCopy(myTasksPath, myTasksBackupPath);
             }
             else
