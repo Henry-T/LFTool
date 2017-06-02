@@ -1,0 +1,283 @@
+task add 优酷盒子，视频黑屏，但能播完 -> 晓聪
+task add 对冒险与挖矿的h5分包怎么看 -> 杨垒
+task add 辉哥为什么推崇unity3d -> 晓聪
+task add 思考单渠道多用户体系的接入方式 -> 提需求给平台
+task add 实现单渠道多用户体系的接入框架
+task add GSDK OnGameEnding 花样三国 & 花样武侠
+task add MainActivityResultHandler 内部接口迁移
+task add 游客账号只随机一次 花样三国 花样武侠
+task add 下次大版本更新之前 优化武将热更新过大的问题(plist)
+task add 有所改进地恢复花样三国构建
+task add 升级花样三国cdef
+task add 下载电子书 Android Programming: The Big Nerd Ranch Guide (2nd Edition)
+task add 再次确认！！！ AndroidManifest meta-data 的值配置及读取
+task add 总结下花样三国框架的优点 易于维护迭代
+task add 完善现有的onItemNavigatedTo priority:L 
+task add 导航 priority:L 
+task add 局域网提速失败记 USB>有线>无线
+task add failed to install haxm 也许是看这个：https://software.intel.com/en-us/blogs/2013/04/25/workaround-patch-for-haxm-installation-error-failed-to-configure-driver-unknown
+task add 让jenkins通过Matrix支持批量Build 平台包
+task add 模拟器CPU测试(armeabi x86 ...) 用genymotion跑一下包 & genymotion现在还有优势吗
+task add 资源没清干净？res/icon.png - svn untrack的处理
+task add 了解 APK Multi-Tool http://apkmultitool.com/?q=node/5 做的事情和GSDK差不多，但哪个batch_optimise是什么?
+task add .project .classpath http://www.cnblogs.com/panjun-Donet/archive/2010/08/25/1807780.html
+task add 分帧加载这个有趣的方案
+task add png-8优化的具体数值
+task add minSDKVersion targetVersion 常规依赖及二次打包 要求
+task add java异常无法跨线程throw
+task add 强制引导的跳过妥协
+task add UnityTrain的学员数据记录 本身不重要，但抓取的方法需要记录
+task add 海信支付依赖设备
+task add jenkins上服务器FTP版本号，是目录版本号
+task add 命令式的redis和湘的镜像机制的对比的讨论 priority:H 
+task add 如何避免svn merge越来越奇怪 priority:H 
+task add svn 内部引用总结 priority:H 
+task add 通过协程实现的脚本系统 priority:H 
+task add LudumDare 34 priority:L 
+task add lua 协程调试或近似方案 实验并 （似乎只有resume里resume会卡死）
+task add UI测试不属于黑盒或白盒测试，就叫UI测试
+task add 友盟tv统计接入和查看指南
+task add 测试Code能否快速编译测试C# 以及 代码提示 《Code快速编辑编译C#指南》
+task add 强更时获得最新版本的URL &forceflush的来源
+task add windows系统profiler跑分 电脑管家有跑分 然并卵
+task add 如何处理单回调模式在冗余提交时可能造成回调顶替
+task add 统一激活码使用editbox做输入框 完全
+task add 增加Sublime历史记录
+task add 能否通过lua直接实现apk更新? 不能 (jni不支持 jni 的java对象)
+task add github.com ssh代理问题 及 子模块加载问题 (修改引用地址也是一方案) 解决并
+task add 录制一下ConfigEditor
+task add WPF中使用FontAwesome 测试总结
+task add lua 获取当前函数名
+task add android studio启动更新卡住如何处理
+task add lua对象在，但C对象被清除的检查方法 tolua.isnull()/tolua.cast(o, "Name") http://wenboqiu.github.io/blog/2014/09/19/how-to-use-tolua-dot-cast/ http://blog.csdn.net/tutuboke/article/details/30088105 http://discuss.cocos2d-x.org/t/how-can-i-use-getchildren-in-lua/547/7
+task add 如何使用正版的ESExplorer提取android包 (是否需要root)
+task add 设计思想 断线重连中 "网络连接已关闭" 这里应该恢复光标
+task add 整理InputComponent 需要mac来打包
+task add player模拟 volumeUp volumeDown menu
+task add bug 骨骼剧情切后台，超时不能结束 priority:M 
+task add GSDK 异步行为的等待处理 priority:L 
+task add 升级《花样三国》的统计编号流程 priority:L 
+task add 修正直接账号登陆的问题
+task add 封测上线 10.22 下午3点
+task add 了解dataeye
+task add 系统学习Android导航机制
+task add 统计 友盟 爱扑 testin
+task add jenkins 将脚本剥离到项目 的可行性确认
+task add 了解 Q http://documentup.com/kriskowal/q/
+task add 接口文档
+task add 路由层次
+task add 数据库模型设计
+task add 授权机制
+task add 了解易接 http://www.1sdk.cn/
+task add onNewIntent() 事件是什么时候触发的
+task add telnet和ping有什么区别
+task add android.R.id.content 是什么东西
+task add 使用gradle构建
+task add AndroidManifest Merger 使用gradle
+task add GSDK jenkins的release使用站点版本
+task add SDK Version Merger!
+task add 有效利用mLogcat http://mlogcat.tistory.com/category/Document
+task add 工具代码在尝试删除目录时，如果目录被资源管理器打开，或者在cmd的工作目录中 会出现IO异常 此异常很无意义，如何避免?
+task add 支持Bugly
+task add 前端异常上报接口 （不再需要统计）
+task add 渠道
+task add 视博云迁移到GSDK > 找bink提需求
+task add 后端支付回调处理
+task add 支付
+task add 创建完整的一批key
+task add 支付界面 -> 交回项目组
+task add 创建完整的一批游谷账号
+task add 成批整理渠道key，给到bink
+task add 假支付协议便于调试
+task add 支持找回密码
+task add 花样武侠正式上线 priority:L 
+task add 从各渠道获取计费点(3个 视博云 atet v乐)
+task add 批量打包脚本 devTV+n
+task add 导出google code 中的所有项目 活项目-github 死项目-bitbucket
+task add 读新闻 韩正 房价 http://sh.qq.com/a/20151010/043112.htm?ADUIN=906311683&ADSESSION=1444457051&ADTAG=CLIENT.QQ.5437_.0&ADPUBNO=26517
+task add 整理应用网盘 priority:L 
+task add 了解杭州婚迁 户口 priority:M 
+task add 算算我到底有几分 http://sh.qq.com/a/20150815/022040.htm?ADUIN=906311683&ADSESSION=1439607206&ADTAG=CLIENT.QQ.5407_.0&ADPUBNO=26471 priority:M 
+task add 整理代码工程 priority:M 
+task add 整理一批个人简介 priority:L 
+task add 整理在线笔记 priority:L 
+task add 整理桌面网页 priority:L 
+task add 学会算住房公积金贷款 priority:M 
+task add 归档历史桌面 (10.16) priority:L 
+task add 了解并测试PP鸭图片压缩 http://ppduck.com/
+task add <uses-feature android:glEsVersion="0x00020000" /> 这个配置从哪儿来？
+task add 安装并配置zip版android studio http://developer.android.com/sdk/index.html
+task add 了解http://safe.ijiami.cn/
+task add AndroidManifest.xml 数字防溢出功能 priority:M 
+task add 阅读 Android Activity Lifecycle http://developer.android.com/guide/components/activities.html priority:M 
+task add 读一读 Android Manifest Merging Tool 它虽然基于gradle，没那么小巧，但感觉很有借鉴价值 https://developer.android.com/tools/building/manifest-merge.html
+task add 挖一挖 这个 http://www.androiddevtools.cn/ priority:H 
+task add android异步http库 能否用进游戏 http://loopj.com/android-async-http/
+task add 了解如何确保放在前端的明文key是安全的 priority:M 
+task add 笔记-genymotion问题 http://www.eoeandroid.com/thread-310900-1-1.html
+task add 寻找能获取安卓系统信息小工具 ESTaskManager?
+task add 了解ProGuard
+task add 电视盒子需要一个通用清数据工具
+task add Eclipse能否通过命令行设置默认编码、调整界面布局 （或者是否有全局设置，而不是workspace设置）
+task add ios开发者转react native的心得 https://linux.cn/article-6233-1.html?utm_source=qqmail&utm_medium=qqmail
+task add 搜刮Android资源精选站 https://android-arsenal.com/
+task add android debugenabled 是否安全
+task add Eclipse的encoding 设置是跟workspace走的，经常新建workspace时怎样通过命令行设置encoding？
+task add 了解ndk调试步骤 http://wenzongliang.iteye.com/blog/1929230
+task add 由于ChangePass改为RestorePass，应编写lua兼容层
+task add jenkins console 中文乱码 -> 杨垒
+task add 笔记jenkins EnvInject
+task add 获取另一个渠道的文档
+task add 整体测试
+task add svn revert 和 svn upgrade 不用通讯 断网能用
+task add 电脑同时连接有线和wifi，会优先使用哪个？ （dns配置不一样，线路不一样时，此问题有意义）
+task add gsdk分支+版本号加入文件名 -> dependency做为资源打入apk
+task add GSDK 版本可通过代码访问
+task add 设计一个包管理器，用于处理内部开发依赖
+task add EnvInject 不能读参数化路径下的文件，会导致无法同时跑几个build -> 先确认 关键在第一个envinject
+task add 把自己的常用NET扩展上传到 github(优先+绝对优势) / nuget
+task add 文档化 《花样三国》大版本更新前夕 热更新操作指南 个人文档即可
+task add 处理关卡难度误报 不设置 1 2 3
+task add svn 如何忽略目录下的所有文件及文件夹?
+task add svn merge时不合并历史commit的原因
+task add 后台更新文档接口 -> bink 自动编译提交 -> 先用jenkins batch实现
+task add Build脚本分离到项目中
+task add 编写可行性报告
+task add Release脚本支持标记exe版本号
+task add 程序员编程艺术 — 面试和算法心得 购入
+task add 系统了解gradle https://docs.gradle.org/current/userguide/userguide.html
+task add 测试 build trigger api https://gitlab.com/gitlab-org/gitlab-ci/merge_requests/229
+task add 问问其他人，是否有用gitlab代替jenkins做build
+task add 大体了解CI相关文档及例子 https://gitlab.com/help
+task add 安装mini wifi 驱动 / 买一个验证过的设备 https://ms-iot.github.io/content/en-US/win10/SetupWiFi.htm
+task add 更新包优先安装到SD卡
+task add 使用7zip压缩comp
+task add mage 参考 https://msdn.microsoft.com/en-us/library/acz3y3te(v=vs.110).aspx
+task add 如何维护修订号？ http://semver.org/lang/zh-CN/
+task add UI dump
+task add 许褚技能计算错误 http://redmine.apowo.com/issues/2371
+task add 选中框不显示 http://redmine.apowo.com/issues/2890
+task add 绿色选中框变形 http://redmine.apowo.com/issues/2968
+task add 剧情人物黑块 http://redmine.apowo.com/issues/3334
+task add 海信背景音乐 http://redmine.apowo.com/issues/3336
+task add 准备玩饥荒联机
+task add 准备重新玩the escapists walking dead
+task add 添加一个强行覆盖前端服务器时间的测试接口
+task add 界面创建时初始化以及刷新的时候 不能add新面板，次序会乱。如果要取网络数据，容易因断线弹框出现问题。比如手游好友界面打开断线 -> 写入文档
+task add 为网络消息提交做独立Block，有阻塞或不阻塞操作的，如何弥补req结构缺陷 priority:L 
+task add 检查SD卡剩余容量
+task add 检查apk包尺寸
+task add 提前获取新包大小
+task add 确认android用的lua还是luajit -> 重新启用luajit
+task add Mike Pall 发布了一个基于luajit的高效profiler，现在是集成在luajit里了还是怎样？(既然是luajit作者，应该是集成的) http://www.freelists.org/post/luajit/LuaJIT-21-Profiler-released
+task add 基于luajit的高效profiling
+task add quick/lua 实时开关的profiler
+task add 九章算法
+task add MewKeeper
+task add 庞大的globalFunction/ClientConfig该如何索引 ->杨垒 priority:M 
+task add 场景是怎么压缩的 -> 鸿杰&老袁
+task add 文档化 tanghongyang2
+task add 讨论下UI测试的必要性和操作性 -> 徐吉庆
+task add 了解那个手机向电视移植的工具，名字叫啥？ ->杨垒
+task add 了解上海的私立学校老师的情况 -> 贵
+task add windows iot https://dev.windows.com/zh-cn/iot
+task add 在线题 http://www.lintcode.com/zh-cn/problem/
+task add 官网 http://www.jiuzhang.com/
+task add 购买数据线头卡子
+task add 找到如何通过命令清除android http缓存
+task add 了解下 -> 做这个专业英语测试 https://www.efset.org/en/efset/take-test/
+task add iphone闹钟不会响了
+task add 能否通过命令及密码 把game.zip转换回lua
+task add 通过命令检查本地
+task add 机器车 https://www.hackster.io/windowsiot/robot-kit
+task add 购买伸缩网线
+task add 购买网线卡子
+task add 因为不再需要打ios包，把luajit加回来
+task add 提供一个文档上传接口，这边采用自动上传 -> bink
+task add url兼容大小写，或者php那边统一一次 -> bink
+task add 能够强行修改平台
+task add 高速战斗
+task add UI自动化 （自动化测试脚本+控件断言）
+task add 跳过片头视频
+task add SD卡中备份LocalData
+task add SD卡持有量统计
+task add spine二进制优化加载 （先尝试）
+task add 引导调试工具 （引导预载+引导条目可视化）
+task add cyberTV版本号更新
+task add 支持CPU架构配置
+task add 渠道参数要求加入文档
+task add AndroidManifest meta 的正确加载方法
+task add 文件被system占用似乎无解
+task add jenkins slave 掉线的两种表现
+task add G-SDK 支付开始 （爱扑的支付设计阶段一定要做好） -> 张睿
+task add 电视支付实现调研
+task add G-SDK 账号测试
+task add 基于Quick-x的虚拟按键脚本 (c++ dll) priority:H 
+task add 花样三国内嵌自动化测试
+task add 搞清楚 http://gitbook.liuhui998.com/4_1.html
+task add 让客户端版本号使用SVN版本？ No! 明确四个版本号及版本数的意义 priority:M 
+task add 为什么cocos2dx和pbc都是静态库，生成的player.exe还那么小?
+task add 写个小工具，能在开机时自动更新svn
+task add 排查Quick-x对象数量泄露 (完成后升级任务) priority:M 
+task add 了解并尝试BatchNode优化 priority:M 
+task add lua如何禁用尾调用
+task add [编写] Cocos节点在树中可不可见 getNodeByFocusPath getNodeByPath priority:L 
+task add 研究下CCNode的混合内存管理 priority:M 
+task add 切实操作热更新
+task add 排序时间优化-sortFunc次数检查 为什么原始有序表与完全无序表相比没优势？ priority:M 
+task add 验证一下CCEditBox弹框超过100个字符不显示 (关卡面板宝箱)
+task add 在自己电脑上搭好cocos2dx 3环境 http://cn.cocos2d-x.org/article/index?type=cocos2d-x&url=/doc/cocos-docs-master/manual/framework/native/v3/getting-started/setting-up-development-environments-on-windows7-with-eclipse/zh.md
+task add 了解并测试设计机理 self._itemList:setIgnoreAnchorPointForPosition(false) priority:M 
+task add 读读findUnusedImg.py priority:M 
+task add 了解tinypng.com 并记录一些数据
+task add 了解zipalign压缩，并记录一些数据 priority:M 
+task add Blog系统-主列表中滤掉"操作指南"、"心情"等类目的文章，只放自己的大思想列表 priority:L 
+task add 周数换算 加入tool http://www.ab126.com/clock/2714.html
+task add 找个好用的命令行转编码工具
+task add 实践性了解Redis priority:M 
+task add QuickPG项目自动命名、改名 priority:M 
+task add 切换主题时的光标跳跃问题
+task add 颜色混合  http://shahdza.blog.51cto.com/2410787/1547633    http://dev.w3.org/SVG/modules/compositing/publish/ priority:M 
+task add 帧率问题 确定不同平台的限帧方式 priority:M 
+task add 李剑英 带你玩转 欧拉角 priority:M 
+task add 通过U3D了解预乘和非预乘的区别和用途 http://forum.unity3d.com/threads/premulitplied-alpha-textures-pipeline-in-unity.115373/
+task add 系统"了解"IL2CPP priority:H 
+task add 体验Unity Cloud Build （Blog） priority:M 
+task add 简单体验一下L# priority:M 
+task add 了解 Shadow Map OK priority:H 
+task add 做一个Unity显示，lua做输入的在线3D数学模拟
+task add 了解并尝试Soft Particle priority:H 
+task add Unity 资源包依赖不好用的真正原因是什么？ priority:M 
+task add U3d如何让图片放大时不做插值(LD备选) priority:M 
+task add 了解U3D GI http://blogs.unity3d.com/2014/09/18/global-illumination-in-unity-5/ priority:H 
+task add 体验微信开放平台
+task add todoisst+commit https://developer.todoist.com/appconsole.html
+task add HandleKiller 做成工具库
+task add 十多个模式在动态语言中都不是问题？！？！ 真的吗？《暗时间》
+task add AnySDK已操作过,真正上几个平台看看
+task add 了解一下DataEye
+task add 修正四元数计算器
+task add 了解pngquant priority:M 
+task add Unity4.x Cookbook 读到P94 (贴图下)
+task add Unity4.x Cookbook 读到P110 (GUI上)
+task add Unity4.x Cookbook 读到P123 (GUI中)
+task add Unity4.x Cookbook 读到P139 (GUI下)
+task add Unity4.x Cookbook 读到P163 (动画上)
+task add Unity4.x Cookbook 读到P187 (动画下)
+task add Unity4.x Cookbook 读到P210 (声音)
+task add Unity4.x Cookbook 读到P224 (外部资源上)
+task add Unity4.x Cookbook 读到P242 (外部资源下)
+task add Unity4.x Cookbook 读到P261 (文本和XML)
+task add Unity4.x Cookbook 读到P289 (状态和运动上)
+task add Unity4.x Cookbook 读到P308 (状态和运动下)
+task add Unity4.x Cookbook 读到P328 (优化上)
+task add Unity4.x Cookbook 读到P343 (优化下)
+task add Unity4.x Cookbook 读到P360 (Pro)
+task add Unity4.x Cookbook 读到P57 (摄像机)
+task add Unity4.x Cookbook 读到P80 (贴图上)
+task add LofiRead 支持奖牌
+task add LofiRead 将读书进度显示为Google Chart
+task add Memeory Analyzer 中文简单说明 http://liaohuqiu.net/cn/posts/memory-and-profile-analysis-in-android/
+task add 关于 TraceView http://developer.android.com/tools/help/traceview.html
+task add 延伸-性能分析工具 https://developer.android.com/tools/performance/index.html
+task add 使用Eclipse内存分析工具
